@@ -1,0 +1,101 @@
+#artist-container {
+  position: relative;
+  width: 85%;
+}
+
+.works-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12rem;
+  width: 100%;
+}
+
+.works-img {
+  margin-right: 7.5rem;
+  width: 30%;
+}
+
+#artist-about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#artist-vision {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18.75rem;
+}
+
+#artist-works {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18.75rem;
+}
+
+#artist-awards {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 18.75rem;
+}
+
+#artist-img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  #mint {
+    width: 85%;
+  }
+}
+
+@media (max-width: 767px) {
+  #mint {
+    width: 91%;
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .artist-content {
+    max-width: initial;
+  }
+
+  #artist-vision {
+    margin-top: 5rem;
+  }
+
+  #artist-works {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  #artist-awards {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .works-img {
+    margin-right: 0;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  #artist-img {
+    width: 200%;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+}

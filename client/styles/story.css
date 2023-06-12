@@ -1,0 +1,243 @@
+#app-start {
+  z-index: 3;
+  overflow: hidden;
+}
+
+#story {
+  position: relative;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block-1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* opacity: 0; */
+  /* transform: translateX(100%); */
+  margin-top: 33vh;
+}
+
+.block-1 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+}
+
+.block-2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* opacity: 0; */
+  /* transform: translateX(-100%); */
+  margin-top: 35rem;
+}
+
+.block-3 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* opacity: 0; */
+  /* transform: translateX(100%); */
+  margin-top: 35rem;
+}
+
+.block-4 {
+  position: relative;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  /* opacity: 0; */
+  /* transform: translateX(-100%); */
+  margin-top: 35rem;
+  margin-bottom: 6.25rem;
+}
+
+.anim-tower {
+  width: 70% !important;
+  max-width: 70% !important;
+  height: auto !important;
+  max-height: initial !important;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, -33%);
+}
+
+#tower-anim {
+  width: 130vw !important;
+  max-width: 130vw !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  position: absolute;
+}
+
+#tower-static {
+  width: 200%;
+  max-width: 200%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.story-controls {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  bottom: 5%;
+  right: 0%;
+  margin-top: 60px;
+}
+
+@media (max-width: 9999px) and (min-width: 2000px) {
+  #tower-anim {
+    transform: translateX(-8%);
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  #story {
+    width: 85%;
+  }
+
+  .block-1 {
+    margin-top: 0;
+  }
+
+  .block-2 {
+    margin-top: 5rem;
+  }
+
+  .block-3 {
+    margin-top: 5rem;
+  }
+
+  .block-4 {
+    margin-top: 5rem;
+  }
+
+  #tower-static {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #app-start {
+    margin-top: 0vh;
+  }
+
+  #story {
+    width: 91%;
+  }
+
+  .block-1 {
+    margin-top: 60px;
+  }
+
+  .block-2 {
+    margin-top: 5rem;
+  }
+
+  .block-3 {
+    margin-top: 0rem;
+  }
+
+  .block-4 {
+    margin-top: 5rem;
+  }
+
+  #tower-static {
+    width: 125%;
+  }
+}
+
+
+@media (max-width: 428px) {
+  #tower-static {
+    width: 200%;
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .block-1 {
+    position: relative;
+    top: initial;
+    transform: initial;
+    align-items: flex-start;
+    right: initial;
+  }
+
+  .block-1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .block-2 {
+    position: relative;
+    top: initial;
+    transform: initial;
+    left: initial;
+  }
+
+  .block-2 p {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .block-3 {
+    position: relative;
+    top: initial;
+    transform: initial;
+    justify-content: flex-start;
+    right: initial;
+  }
+
+  .block-3 p {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .block-4 {
+    width: 100%;
+  }
+
+  .block-4 {
+    position: relative;
+    width: 100%;
+    top: initial;
+    transform: initial;
+    left: initial;
+  }
+
+  .block-2 p {
+    max-width: initial;
+    margin-left: 0;
+  }
+
+  #app-start {
+    margin-top: 15vh;
+  }
+
+  .anim-tower {
+    top: -36rem;
+    left: 0;
+    width: 175%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

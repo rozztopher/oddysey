@@ -1,0 +1,34 @@
+#faq {
+  width: 66%;
+}
+
+.footer {
+    width: 100%;
+}
+
+#email-message {
+  opacity: 0;
+}
+
+.submit-circle {
+  border: 2px solid #0EBFBB;
+}
+
+@media (max-width: 1023px) and (min-width: 481px) {
+  #faq {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  #faq {
+    padding: 0 !important;
+    width: 100%;
+    margin-top: 0rem !important;
+  }
+
+  .submit-circle {
+    width: 75px;
+    height: 75px;
+  }
+}

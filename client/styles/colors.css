@@ -1,0 +1,19 @@
+.b-sizzling-red {
+  background-color: #ff3355;
+}
+
+.b-white {
+  background-color: #fff;
+}
+
+.b-tiffany-blue {
+  background-color: #0ebfbb;
+}
+
+.b-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(14, 191, 187, 0.15) 0%,
+    rgba(14, 191, 187, 0.4) 100%
+  );
+}

@@ -1,0 +1,238 @@
+@font-face {
+    font-family: AeonikProLight;
+    src: url(/fonts/AeonikPro-Light.otf);
+}
+
+@font-face {
+    font-family: AeonikProRegular;
+    src: url(/fonts/AeonikPro-Regular.otf);
+}
+
+@font-face {
+    font-family: AeonikProMedium;
+    src: url(/fonts/AeonikPro-Medium.otf);
+}
+
+@font-face {
+    font-family: MyriadProRegular;
+    src: url(/fonts/MyriadPro-Regular.otf);
+}
+
+* {
+    font-family: MyriadProRegular;
+}
+
+.medium {
+    font-family: AeonikProMedium;
+}
+
+.light {
+    font-family: AeonikProLight;
+}
+
+.regular {
+    font-family: AeonikProRegular;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: AeonikProMedium;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: AeonikProMedium;
+}
+
+h3 {
+    font-size: 1.17em;
+    font-family: AeonikProMedium;
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
+
+.t-tiffany-blue {
+    color: #0EBFBB;
+}
+
+.t-sizzling-red {
+    color: #FF3355;
+}
+
+.t-white {
+    color: white;
+}
+
+.t-gold {
+    color: #ffdf00;
+}
+
+.t-white-80 {
+    color: #FFFFFF80;
+}
+
+.t-white-50 {
+    color: #FFFFFF50;
+}
+
+.t-white-25 {
+    color: #FFFFFF40;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 0.875em;
+}
+
+.fs-18 {
+    font-size: 1.125em;
+}
+
+.fs-20 {
+    font-size: 1.25em;
+}
+
+.fs-22 {
+    font-size: 1.375em;
+}
+
+.fs-24 {
+    font-size: 1.5em;
+}
+
+.fs-32 {
+    font-size: 2rem;
+}
+
+.fs-42 {
+    font-size: 2.625em;
+}
+
+.fs-54 {
+    font-size: 3.375em;
+}
+
+.fs-72 {
+    font-size: 4.5em;
+}
+
+.fs-100 {
+    font-size: 6.25em;
+}
+
+.fs-110 {
+    font-size: 6.875em;
+}
+
+.fs-120 {
+    font-size: 7.5em;
+}
+
+.fs-140 {
+    font-size: 8.75em;
+}
+
+.fs-160 {
+    font-size: 10em;
+}
+
+.fs-190 {
+    font-size: 11.875em;
+}
+
+.lh-08 {
+    line-height: 0.8;
+}
+
+.lh-38 {
+    line-height: 2.375rem;
+}
+
+.lh-126 {
+    line-height: 7.875rem;
+}
+
+.ls-042 {
+    letter-spacing: 0.42rem;
+}
+
+.ls-05 {
+    letter-spacing: 0.5rem;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .fs-160 {
+        font-size: 6rem;
+    }
+
+    .fs-32 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .fs-190 {
+        font-size: 6em;
+    }
+
+    .fs-160 {
+        font-size: 3.875em;
+    }
+
+    .fs-140 {
+        font-size: 3.625em;
+    }
+
+    .fs-110 {
+        font-size: 3.5em;
+    }
+
+    .fs-72 {
+        font-size: 2.625em;
+    }
+
+    .fs-60 {
+        font-size: 2em;
+    }
+
+    .fs-54 {
+        font-size: 1.5em;
+    }
+
+    .fs-32 {
+        font-size: 1.125em;
+    }
+
+    .fs-24 {
+        font-size: 1.125em;
+    }
+
+    .fs-20 {
+        font-size: 1em;
+    }
+
+    .fs-18 {
+        font-size: 1em;
+    }
+
+    .lh-38 {
+        line-height: 1.35em;
+    }
+
+    .lh-126 {
+        line-height: initial;
+    }
+}
